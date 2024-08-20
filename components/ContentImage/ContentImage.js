@@ -6,19 +6,19 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Borcegos",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Nuestros borcegos de cuero están diseñados para quienes buscan estilo y durabilidad en un solo calzado. Hechos con cuero genuino de alta calidad, estos borcegos combinan un diseño robusto con detalles elegantes que los hacen perfectos para cualquier ocasión.",
         align: "right",
-        image: "/features1.png"
+        image: "/Photos/BORCEGO VENECIA.jpg"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Botas",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "Con un acabado impecable en cuero genuino, son el complemento perfecto para cualquier atuendo, ya sea casual o más formal. Su diseño moderno y atemporal asegura que siempre estarás a la moda, mientras que el ajuste cómodo te acompañará en cada paso.",
         align: "left",
-        image: "/features2.png"
+        image: "/Photos/BOTAS UMA DORADAS.jpg"
     }
 ];
 

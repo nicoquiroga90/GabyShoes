@@ -7,31 +7,31 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
+        title: "Es cuero genuino?",
         isOpen: true,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            "Si, en Gaby - Comodidad & Estilo priorizamos la calidad de nuestro calzado y nos aseguramos que el producto sea de la mas alta calidad."
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "Como puedo comprar?",
         isOpen: false,
         content:
-            "This template is made for people who want to make a website quickly with a Notion-themed style and prefer to use a template."
+            "Hacendo click en el boton de Contacto, donde podras enviar tus consultas. Te respondere a la brevedad posible."
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
+        title: "Hacen envios a todo el pais?",
         isOpen: false,
         content:
-            "No, this is free. All content on this template are dummy data."
+            "Si, previa coordinacion con el vendedor. Te aseguramos que tus compras lleguen en tiempo y forma."
     },
     {
         id: uuid(),
-        title: "Where can I ask more questions about this template?",
+        title: "Como puedo ver todo el catalogo?",
         isOpen: false,
         content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+            "Te recomendamoms que te concectes con nosotros para poder asesorarte y obtengas el calzado perfecto"
     }
 ];
 
