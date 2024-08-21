@@ -5,7 +5,7 @@ const path = require("path");
 const fs = require("fs");
 
 const nextConfig = {
-    reactStrictMode: true,
+    reactStrictMode: false,
     experimental: {
         appDir: true
     },
@@ -17,12 +17,12 @@ const nextConfig = {
         domains: ["s.gravatar.com"]
     },
     env: {
-        siteTitle: "Your Company",
-        siteDescription: "Your company description.",
-        siteKeywords: "your company keywords",
-        siteUrl: "You site url",
-        siteImagePreviewUrl: "/images/preview.jpeg",
-        twitterHandle: "@your_handle"
+        siteTitle: "Gaby - Comodidad & Estilo",
+        siteDescription: "Venta de calzado",
+        siteKeywords: "calzados, borcegos, suecos, botas",
+        //siteUrl: "url",
+        //siteImagePreviewUrl: "",
+        //twitterHandle: "@"
     },
     headers() {
         return [
