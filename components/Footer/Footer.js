@@ -134,6 +134,7 @@ export const Footer = () => {
                                 className="transition-colors duration-300 hover:underline"
                                 href="https://nico-quiroga.vercel.app/"
                                 target="_blank"
+                                rel="noreferrer" 
                             >
                                 NicoQ.
                             </Link>

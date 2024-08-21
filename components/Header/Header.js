@@ -34,6 +34,7 @@ export const Header = () => {
                             href="https://wa.me/5491151638271?text=Hola,%20me%20interesa%20más%20información%20sobre%20tu%20producto."
                             className="btn btn--secondary ml-4"
                             target="_blank"
+                            rel="noreferrer" 
                         >
                             Contactanos 
                             <Icon icon="material-symbols:arrow-forward-rounded" />
