@@ -8,10 +8,11 @@ const navigation = [
     { name: "Testimonios", to: "#testimonios", href: "/#testimonios" },
     { name: "Consultas", to: "#consultas", href: "/#consultas" },
     {
-        name: "Contact",
-        href: "https://chrstnl.com/",
+        name: "Contacto",
+        href: "https://wa.me/5491151638271?text=Hola,%20me%20interesa%20más%20información%20sobre%20tu%20producto.",
         isArrow: true,
-        target: "_blank"
+        target: "_blank",
+        rel:"noopener noreferrer"
     }
 ];
 

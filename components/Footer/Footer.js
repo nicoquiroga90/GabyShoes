@@ -28,22 +28,26 @@ const DATA = [
             {
                 label: "Sobre nosotros",
                 href: "https://google.com",
-                target: "_blank"
+                target: "_blank",
+                rel:"noopener noreferrer"
             },
             {
                 label: "Twitter",
                 href: "https://x.com",
-                target: "_blank"
+                target: "_blank",
+                rel:"noopener noreferrer"
             },
             {
                 label: "Instagram",
                 href: "https://instagram.com",
-                target: "_blank"
+                target: "_blank",
+                rel:"noopener noreferrer"
             },
             {
                 label: "Facebook",
                 href: "https://facebook.com",
-                target: "_blank"
+                target: "_blank",
+                 rel:"noopener noreferrer"
             }
         ]
     }
@@ -77,7 +81,7 @@ export const Footer = () => {
                                         href="https://wa.me/5491151638271?text=Hola,%20me%20interesa%20más%20información%20sobre%20tu%20producto."
                                         className="btn btn--secondary"
                                         target="_blank"
-                                        rel="noopener"
+                                        rel="noopener noreferrer"
                                     >
                                         Hace tu pedido
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
@@ -135,7 +139,7 @@ export const Footer = () => {
                                 className="transition-colors duration-300 hover:underline"
                                 href="https://nico-quiroga.vercel.app/"
                                 target="_blank"
-                                rel="noreferrer" 
+                                rel="noopener noreferrer"
                             >
                                 NicoQ.
                             </Link>

@@ -1,12 +1,12 @@
 {
-    "name": "nutritrack",
+    "name": "gaby-comodidad-estilo",
     "version": "1.1.1",
-    "description": "NutriTrack - A customizable landing page theme built with AstroJS and TailwindCSS, specifically designed for Notion creators.",
+    "description": "Gaby -Comodidad & Estilo- is a landing page for a commerce with NextJS and TailwindCSS.",
     "main": "index.js",
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/christian-luntok/nutritrack.git"
+        "url": "git+https://github.com/nicoquiroga90"
     },
     "keywords": [
         "next",
@@ -17,8 +17,8 @@
         "tailwindcss",
         "tailwind"
     ],
-    "author": "chrstnl",
-    "homepage": "https://chrstnl.com/",
+    "author": "NicoQ",
+    "homepage": "https://nico-quiroga.vercel.app/",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
