@@ -16,7 +16,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/"
+                                src="/Gaby.png"
                                 alt="logo"
                                 className="h-6 w-auto"
                                 height="24"
@@ -31,10 +31,11 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
-                            href="https://github.com/chrstnl-gh/nutritrack"
+                            href="https://wa.me/5491151638271?text=Hola,%20me%20interesa%20más%20información%20sobre%20tu%20producto."
                             className="btn btn--secondary ml-4"
+                            target="_blank"
                         >
-                            Get Template
+                            Contactanos 
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

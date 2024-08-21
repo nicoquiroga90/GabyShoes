@@ -6,43 +6,43 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Comodidad & Estilo",
         items: [
             {
-                label: "Features",
-                href: "#features"
+                label: "Calzados",
+                href: "#calzados"
             },
             {
-                label: "Testimonials",
-                href: "#testimonials"
+                label: "Testimonios",
+                href: "#testimonios"
             },
             {
-                label: "FAQ",
-                href: "#faq"
+                label: "Consultas Frecuentes",
+                href: "#consultas"
             }
         ]
     },
     {
-        title: "Company",
+        title: "Nuestra Empresa",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
+                label: "Sobre nosotros",
+                href: "https://google.com",
                 target: "_blank"
             },
             {
                 label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                href: "https://x.com",
                 target: "_blank"
             },
             {
                 label: "Instagram",
-                href: "https://github.com/christian-luntok/",
+                href: "https://instagram.com",
                 target: "_blank"
             },
             {
                 label: "Facebook",
-                href: "https://github.com/christian-luntok/",
+                href: "https://facebook.com",
                 target: "_blank"
             }
         ]
@@ -63,7 +63,7 @@ export const Footer = () => {
                             <div className="footer--logo grid gap-8">
                                 <Link href="/">
                                     <Image
-                                        src="/nutritrack.svg"
+                                        src="/Gaby.png"
                                         alt="logo"
                                         className="h-10 w-auto"
                                         height="25"
@@ -71,14 +71,14 @@ export const Footer = () => {
                                         priority
                                     />
                                 </Link>
-                                {/* Get Template button; remove if not used */}
                                 <ButtonGroup alignment="left">
                                     <a
                                         role="button"
-                                        href="https://github.com/christian-luntok/nutritrack"
+                                        href="https://wa.me/5491151638271?text=Hola,%20me%20interesa%20más%20información%20sobre%20tu%20producto."
                                         className="btn btn--secondary"
+                                        target="_blank"
                                     >
-                                        Get Template
+                                        Hace tu pedido
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
@@ -127,15 +127,15 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
+                        © {year} All rights reserved{" - "}
                         <span className="font-normal">
-                            A template by{" "}
+                            by{" "}
                             <Link
                                 className="transition-colors duration-300 hover:underline"
-                                href="https://chrstnl.com"
+                                href="https://nico-quiroga.vercel.app/"
                                 target="_blank"
                             >
-                                chrstnl.
+                                NicoQ.
                             </Link>
                         </span>
                     </p>

@@ -29,11 +29,11 @@ export default function Home() {
                 <HomeBanner />
                 {/* Components Container */}
                 <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
-                    {/* Features */}
+                    {/* calzados */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer id="features" className="features">
+                        <SectionContainer id="calzados" className="calzados">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Calzados</BadgeMessage>
                                                         <BadgeIcon icon="game-icons:chelsea-boot" />
@@ -91,12 +91,12 @@ export default function Home() {
                             </CardGroup>
                         </SectionContainer>
                     </MotionBTTContainer>
-                    {/* Testimonials */}
+                    {/* testimonios */}
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
                         <SectionContainer
-                            id="testimonials"
+                            id="testimonios"
                             className="benefits"
                         >
                             <BadgeGroup alignment="left">
@@ -113,9 +113,9 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer id="faq" className="faq">
+                        <SectionContainer id="consultas" className="consultas">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>Preguntas frecuentes</BadgeMessage>
+                                <BadgeMessage>Consultas frecuentes</BadgeMessage>
                                  <BadgeIcon icon="mdi:frequently-asked-questions" />
                             </BadgeGroup>
                             <PageTitle
