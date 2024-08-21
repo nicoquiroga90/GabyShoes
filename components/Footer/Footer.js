@@ -77,6 +77,7 @@ export const Footer = () => {
                                         href="https://wa.me/5491151638271?text=Hola,%20me%20interesa%20más%20información%20sobre%20tu%20producto."
                                         className="btn btn--secondary"
                                         target="_blank"
+                                        rel="noopener"
                                     >
                                         Hace tu pedido
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
