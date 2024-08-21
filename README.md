@@ -7,9 +7,7 @@ Gaby -Comodidad & Estilo- is a landing page for a commerce with NextJS and Tailw
 
 <hr>
 
-![NutriTrack Mockup](/public/nutritrack.png)
-
-## Key calzados:
+## Key Features:
 
 -   Minimal styling 
 -   Accessible, semantic HTML markup
