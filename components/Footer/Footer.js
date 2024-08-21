@@ -29,25 +29,25 @@ const DATA = [
                 label: "Sobre nosotros",
                 href: "https://google.com",
                 target: "_blank",
-                rel:"noopener noreferrer"
+                rel: "noopener noreferrer"
             },
             {
                 label: "Twitter",
                 href: "https://x.com",
                 target: "_blank",
-                rel:"noopener noreferrer"
+                rel: "noopener noreferrer"
             },
             {
                 label: "Instagram",
                 href: "https://instagram.com",
                 target: "_blank",
-                rel:"noopener noreferrer"
+                rel: "noopener noreferrer"
             },
             {
                 label: "Facebook",
                 href: "https://facebook.com",
                 target: "_blank",
-                 rel:"noopener noreferrer"
+                rel: "noopener noreferrer"
             }
         ]
     }
@@ -113,6 +113,11 @@ export const Footer = () => {
                                                             }
                                                             target={
                                                                 footerItem.target
+                                                            }
+                                                            rel={
+                                                                footerItem.target === "_blank"
+                                                                    ? "noopener noreferrer"
+                                                                    : undefined
                                                             }
                                                         >
                                                             {footerItem.label}
