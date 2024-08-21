@@ -5,7 +5,7 @@ const path = require("path");
 const fs = require("fs");
 
 const nextConfig = {
-    reactStrictMode: false,
+    reactStrictMode: true,
     experimental: {
         appDir: true
     },
